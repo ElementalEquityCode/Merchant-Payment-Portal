@@ -1,0 +1,75 @@
+.PayButton {
+    width: 100%;
+    height: 44px;
+    padding: 4px;
+    border-radius: 6px;
+    transition: background-color 0.15s ease-out;
+}
+
+.withBackgroundColor {
+    background-color: rgb(197, 217, 235);
+}
+
+.button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgb(24, 117, 205);
+    font-weight: 500;
+    border-radius: 6px;
+    outline: none;
+    box-sizing: border-box;
+    transition: color 0.15s ease-out;
+}
+
+.active {
+    color: white;
+    transition: box-shadow 0.15s ease-out;
+}
+
+.active:hover {
+    box-shadow: inset 0 0 0 1px rgb(50 50 93 / 10%), 0 6px 15px 0 rgb(50 50 93 / 20%), 0 2px 2px 0 rgb(0 0 0 / 10%);
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttonContentsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonTextContainer {
+    width: 100%;
+    font-weight: 400;
+    position: relative;
+    left: 8.75px;
+}
+
+.withLottiePadding {
+    left: 17.5px;
+}
+
+.lockContainer {
+    display: inline-block;
+    padding-top: 2.5px;
+    padding-right: 5px;
+}
+
+.lock {
+    height: 17.5px;
+    width: 17.5px;
+    transform: scale(0, 0);
+    opacity: 0;
+    transition: all 0.15s ease-out;
+}
+
+.visible {
+    transform: scale(1, 1);
+    opacity: 1;
+}
+

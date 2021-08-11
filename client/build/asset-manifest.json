@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d90a6319.chunk.css",
+    "main.js": "/static/js/main.bf91addf.chunk.js",
+    "main.js.map": "/static/js/main.bf91addf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5cf214c5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5cf214c5.js.map",
+    "static/js/2.22c0f079.chunk.js": "/static/js/2.22c0f079.chunk.js",
+    "static/js/2.22c0f079.chunk.js.map": "/static/js/2.22c0f079.chunk.js.map",
+    "static/js/3.54581204.chunk.js": "/static/js/3.54581204.chunk.js",
+    "static/js/3.54581204.chunk.js.map": "/static/js/3.54581204.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d90a6319.chunk.css.map": "/static/css/main.d90a6319.chunk.css.map",
+    "static/js/2.22c0f079.chunk.js.LICENSE.txt": "/static/js/2.22c0f079.chunk.js.LICENSE.txt",
+    "static/media/amex-icon.8bdbf30e.svg": "/static/media/amex-icon.8bdbf30e.svg",
+    "static/media/checkmark.add40fe6.svg": "/static/media/checkmark.add40fe6.svg",
+    "static/media/company-logo.52b2b3f4.svg": "/static/media/company-logo.52b2b3f4.svg",
+    "static/media/contact-form.dd0c553e.svg": "/static/media/contact-form.dd0c553e.svg",
+    "static/media/cvc-icon.7f042d13.svg": "/static/media/cvc-icon.7f042d13.svg",
+    "static/media/diners-club-icon.17c01363.svg": "/static/media/diners-club-icon.17c01363.svg",
+    "static/media/discover-icon.e0357901.svg": "/static/media/discover-icon.e0357901.svg",
+    "static/media/jcb-icon.2f8d08f3.svg": "/static/media/jcb-icon.2f8d08f3.svg",
+    "static/media/lock.090927c7.svg": "/static/media/lock.090927c7.svg",
+    "static/media/mastercard-icon.18be7de6.svg": "/static/media/mastercard-icon.18be7de6.svg",
+    "static/media/powered-by-stripe-white.2ae0b55f.svg": "/static/media/powered-by-stripe-white.2ae0b55f.svg",
+    "static/media/twitter-logo.665d9096.svg": "/static/media/twitter-logo.665d9096.svg",
+    "static/media/union-pay-icon.0b4d3e04.svg": "/static/media/union-pay-icon.0b4d3e04.svg",
+    "static/media/visa-icon.76d7719c.svg": "/static/media/visa-icon.76d7719c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cf214c5.js",
+    "static/js/2.22c0f079.chunk.js",
+    "static/css/main.d90a6319.chunk.css",
+    "static/js/main.bf91addf.chunk.js"
+  ]
+}

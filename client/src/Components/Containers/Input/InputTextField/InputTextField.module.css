@@ -1,0 +1,148 @@
+.InputTextField {
+    padding: 2px;
+    transition: background-color 0.15s ease-out;
+    box-shadow: 0 0 0 1px #e0e0e0, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+    border-collapse: collapse;
+    height: 44px;
+    box-sizing: border-box;
+    transition: box-shadow 0.15s ease-out;
+    overflow: hidden;
+}
+
+.ccInputTextField {
+    box-shadow: 0 0 0 1px #e0e0e0;
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.dateInputTextField, .cvcInputTextField {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.dateInputTextField {
+    border-bottom-left-radius: 6px;
+}
+
+.cvcInputTextField {
+    border-bottom-right-radius: 6px;
+}
+
+.fullWidthInputTextField {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.focusedInputTextField {
+    background-color: rgb(203, 223, 240) !important;
+    z-index: 1000;
+}
+
+.errorStateInputTextField {
+    box-shadow: 0 0 0 1px rgb(228, 156, 152), 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+    z-index: 999;
+}
+
+.errorStateInputTextField div input {
+    color: rgb(235, 56, 42) !important;
+}
+
+.InputTextField:hover {
+    cursor: text;
+}
+
+.textFieldContainerView {
+    overflow: hidden;
+    border: 1px solid white;
+    background-color: white;
+    box-sizing: border-box;
+    width: 100%;
+    transition: border 0.15s ease-out;
+}
+
+.paymentProcessingTextFieldContainerView {
+    border-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+}
+
+.ccTextFieldContainerView {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.dateTextFieldContainerView {
+    border-bottom-left-radius: 6px;
+}
+
+.cvcTextFieldContainerView {
+    border-bottom-right-radius: 6px;
+}
+
+.fullWidthTextFieldContainerView {
+    border-radius: 6px;
+}
+
+.focusedTextFieldContainerView {
+    border: 1px solid rgb(165, 202, 230);
+}
+
+.textField {
+    font-weight: 300 !important;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 450px) {
+    .dateInputTextField {
+        border-radius: 0;
+        box-shadow: 0 0 0 1px #e0e0e0;
+    }
+
+    .errorStateInputTextField {
+        box-shadow: 0 0 0 1px rgb(228, 156, 152), 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+    }
+    
+    .cvcInputTextField {
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+
+    .dateTextFieldContainerView {
+        border-bottom-left-radius: 0;
+    }
+    
+    .cvcTextFieldContainerView {
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+}
+
+.iconsContainer {
+    pointer-events: none;
+    display: grid;
+    justify-items: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    position: relative;
+    bottom: 32.5px;
+}
+
+.iconsContainer * {
+    grid-area: a !important;
+}
+
+.icon {
+    transition: all 0.15s ease-out;
+}
+
+.invisible {
+    opacity: 0;
+    transform: scale(0, 0);
+}

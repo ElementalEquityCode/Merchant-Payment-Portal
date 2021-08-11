@@ -1,0 +1,16 @@
+.FromAndToPaymentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.rawText {
+    color: rgba(26,26,26,.5);
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.nameText {
+    color: rgba(26,26,26,.9);
+    font-size: 14px;
+}

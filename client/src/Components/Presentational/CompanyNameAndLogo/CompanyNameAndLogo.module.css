@@ -1,0 +1,12 @@
+.CompanyNameAndLogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.companyName {
+    color: white;
+    margin-left: 7.5px;
+    font-size: 16px;
+}

@@ -1,0 +1,14 @@
+.ModalContainer {
+    margin: 16px auto;
+    width: 400px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px 25px 10px 25px;
+    box-shadow: 0 0 0 1px hsl(0deg 0% 69% / 20%), 0 15px 35px 0 rgb(49 49 93 / 25%), 0 5px 15px 0 rgb(0 0 0 / 15%);
+}
+
+@media screen and (max-width: 600px) {
+    .ModalContainer {
+        width: 75%;
+    }
+}

@@ -1,0 +1,37 @@
+.Container {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+    padding: 8px;
+    margin: 8px 0 13px 0;
+}
+
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerText {
+    color: rgba(26,26,26,.7);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.requiredText {
+    font-size: 13px;
+    font-weight: 500;
+    color: #dc2727;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: all 0.15s ease-out;
+    transform: translateY(2px);
+}
+
+.requiredText.visible {
+    opacity: 1;
+    transform: initial;
+}

@@ -1,0 +1,88 @@
+.svgContainer {
+    text-align: center;
+}
+
+.paymentConfirmationContactForm {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+}
+
+.checkoutCheckmark {
+    width: 20px;
+    position: relative;
+    top: -52.5px;
+    left: 25px;
+}
+
+.containerFooter {
+    margin-top: -35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.invoicePaidText {
+    color: rgba(26,26,26,.6);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.amountPaidText {
+    color: rgba(26,26,26,.9);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.flexContainers {
+    margin-top: 10px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexContainer div {
+    padding: 2.5px 0;
+}
+
+@media screen and (max-width: 550px) {
+    .flexContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 7.5px ;
+    }
+}
+
+.firstColumnText {
+    color: rgba(26,26,26,.5);
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.secondColumnText {
+    color: rgba(26,26,26,.9);
+    font-size: 14px;
+    text-align: right;
+}
+
+@media screen and (max-width: 550px) {
+    .secondColumnText {
+        word-break: break-all;
+        text-align: center;
+    }
+}
+
+.thankYouText {
+    margin-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgba(26,26,26,.7);
+    font-weight: 500;
+    font-size: 15px;
+}

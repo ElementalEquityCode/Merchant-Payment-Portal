@@ -1,0 +1,40 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.stripeLogoContainer {
+    width: 100px;
+}
+
+.twitterHandleContainer {
+    display: flex;
+    margin-top: 2.5px;
+    color: white;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 350px) {
+    .twitterHandleContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.twitterHandleContainer a {
+    color: white;
+    font-weight: bold;
+}
+
+.twitterLogo {
+    margin-left: 5px;
+    width: 25px;
+}
+
+@media screen and (max-width: 350px) {
+    .twitterLogo {
+        margin: 5px 0;
+    }
+}

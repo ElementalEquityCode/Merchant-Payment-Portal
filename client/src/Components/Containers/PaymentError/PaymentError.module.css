@@ -1,0 +1,10 @@
+.errorTextContainer {
+    padding: 0 8px;
+    margin-top: -12px;
+}
+
+.errorText {
+    word-break: break-word;
+    color: #dc2727;
+    font-size: 14px;
+}

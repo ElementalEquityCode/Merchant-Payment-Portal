@@ -1,0 +1,11 @@
+.CreditCardIconsContainer {
+    display: flex;
+}
+
+.creditCardIcon{
+    width: 25px;
+}
+
+.creditCardIcon:nth-of-type(n+2) {
+    margin-left: 5px;
+}

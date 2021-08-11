@@ -1,0 +1,14 @@
+.CreditCardIconsContainer {
+    display: flex;
+    margin-left: 5px;
+}
+
+.creditCardIcon {
+    width: 25px;
+    opacity: 0;
+    transition: opacity 0.15s ease-out;
+}
+
+.creditCardIcon.visible {
+    opacity: 1;
+}

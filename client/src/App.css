@@ -1,0 +1,62 @@
+#Root {
+  padding: 20px;
+}
+
+.paymentInformationFieldsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-areas:"a a"
+                        "b c";   
+    grid-gap: 1px 1px;      
+}
+
+.paymentInformationFieldsContainer div:nth-of-type(1) {
+  grid-area: a;
+}
+
+.paymentInformationFieldsContainer div:nth-of-type(2) {
+  grid-area: b;
+}
+
+.paymentInformationFieldsContainer div:nth-of-type(3) {
+  grid-area: c;
+}
+
+.overlay {
+  background-color: rgb(240, 240, 240);
+  pointer-events: none;
+}
+
+.paymentErrorAnimationContainer {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.paymentErrorAnimationContainer.visible {
+  opacity: 1
+}
+
+@media screen and (max-width: 450px) {
+  .paymentInformationFieldsContainer {
+    grid-template-areas: "a"
+                         "b"
+                         "c";
+    grid-gap: 1px 0;
+  }
+}
+
+.Container:nth-of-type(2) {
+  height: 115px !important;
+}
+
+@media screen and (max-width: 450px) {
+  .Container:nth-of-type(2) {
+    height: 160px !important;
+  }
+}
+
+.poweredByStripeImage {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+}

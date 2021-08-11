@@ -1,0 +1,30 @@
+.ErrorStateExclamationWrapper {
+    width: 15px;
+    padding: 5px;
+}
+
+.errorStatePointerContainer {
+    grid-area: a;
+    opacity: 0;
+    transform: scale(0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(235, 56, 42);
+    border-radius: 12.5px;
+    width: 12.5px;
+    height: 12.5px;
+    text-align: center;
+    transition: all 0.15s ease-out;
+}
+
+.visible {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.errorStatePointer {
+    color: rgb(235, 56, 42);
+    font-size: 9px;
+    font-weight: bold;
+}
