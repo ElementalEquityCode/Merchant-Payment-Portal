@@ -3,7 +3,7 @@ import React from 'react'
 
 const DateComponent = () => {
 
-    const months = ["January", "February", "March", "April", "May", "June", "July", "October", "November", "December"]
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     const date = new Date()
     const year = date.getFullYear()
     const month = date.getMonth()
